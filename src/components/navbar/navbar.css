@@ -1,0 +1,16 @@
+.navbar{
+    width:100%;
+}
+.navbar .container{
+}
+.navbar .container .logo img{
+    width: 80px;
+    cursor: pointer;
+}
+.navbar .container .list i{
+    font-size: 35px;
+    cursor: pointer;
+}
+.navbar .hide{
+    display: none;
+}

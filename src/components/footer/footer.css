@@ -1,0 +1,20 @@
+.footer{
+    padding-top: 60px;
+    padding-bottom: 20px;
+    background-color: #2c4755;
+}
+.footer .container .cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .container .cont p{
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer .cont .leon{
+    color:#0ec9b6;
+    font-weight: 800;
+}

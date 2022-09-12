@@ -1,0 +1,41 @@
+.portfolio{
+    background-color: #E0E0E0;
+    padding-top:60px;
+    padding-bottom: 60px;
+}
+
+@media (min-width: 576px) { 
+    .portfolio .container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 40px;
+    }
+
+ }
+
+@media (min-width: 768px) {
+    .portfolio .container{
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        grid-gap: 40px;
+    }
+
+ }
+
+@media (min-width: 992px) { 
+    .portfolio .container{
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        grid-gap: 40px;
+    }
+ }
+
+@media (min-width: 1200px) { 
+    .portfolio .container{
+        display: grid;
+        grid-template-columns: repeat(3 , 1fr);
+        grid-gap: 30px;
+    }
+    
+ }
+

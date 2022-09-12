@@ -1,0 +1,32 @@
+.landing{
+    background-image: url(../../../public/images/mountin2.jpg);
+    background-size: cover;
+    height: calc(100vh - 68.5px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.landing h1{
+    font-size:70px;
+    letter-spacing: 6px;
+    font-weight: 800;
+    color:#0ec9b6;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.landing p{
+    margin-left: 4px;
+    margin-right: 4px;
+    text-align: center;
+    font-size:20px;
+    color:#333;
+    line-height: 1.8;
+    font-weight: 600;
+}
+@media (max-width: 576px) { 
+    .landing h1{
+        font-size:40px;
+    }
+ }

@@ -1,0 +1,45 @@
+.contact{
+    padding-top:60px;
+    padding-bottom: 60px;
+    background-color: #E0E0E0;
+}
+
+.contact .container .text{
+    margin-top:50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contact .container .text .lable{
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    color:#2c4755;
+}
+.contact .container .text .mail{
+    margin-top:20px;
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    color:#0ec9b6;
+
+}
+.contact .container .text .socila{
+    display: flex;
+    justify-content: center;
+    margin-top:20px;
+    font-size: 18px;
+}
+.contact .container .socila i{
+    margin-left: 10px;
+    color:#2c4755;
+}
+@media (max-width:767px){
+    .contact .container .text .mail,
+    .contact .container .text .lable{
+        font-size:19px;
+    }
+}

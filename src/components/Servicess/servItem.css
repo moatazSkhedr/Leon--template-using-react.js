@@ -1,0 +1,34 @@
+.serv{
+    display: flex;
+}
+.serv i{
+    font-size: 35px;
+    color:#0ec9b6;
+    text-align: center;
+}
+.serv .text{
+    margin-bottom:20px;
+    margin-left:10px;
+    flex-direction: column;
+    text-align: center;
+    flex:1;
+}
+.serv .text h3{
+    margin:0 0 20px;
+    font-weight: 800;
+}
+.serv .text p{
+    color:#333;
+    font-weight: 300;
+    line-height: 1.8;
+}
+@media (max-width: 576px) { 
+    .serv{
+        display: flex;
+        flex-direction: column;
+    }
+    .serv i{
+        margin-bottom: 10px;
+    }
+
+ }

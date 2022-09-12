@@ -1,0 +1,35 @@
+.nav-list{
+    position: relative;
+}
+.nav-list ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+    background-color: #f2f2f2;
+    position: absolute;
+    right: 0;
+    min-width:180px;
+    top:calc(100% + 5px)
+}
+.nav-list ul::before{
+    content:"";
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent #f2f2f2 transparent;
+    right:5px;
+    position:absolute;
+    top:-20px;
+}
+.nav-list ul li a{
+    text-decoration: none;
+    color:#333;
+    padding: 15px;
+    display: block;
+    transition: .3s;
+}
+.nav-list ul li a:hover{
+    padding-left:25px;
+}
+.nav-list ul li:not(:last-child) a{
+    border: 1px solid #ddd;
+}
